@@ -21,6 +21,7 @@ console.log(cats)
 function destructivelyRemoveLastCat(name){
     cats.pop(name)
 }
+
 destructivelyRemoveLastCat()
 console.log(cats)
 
